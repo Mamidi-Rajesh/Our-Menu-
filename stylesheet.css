@@ -1,0 +1,140 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script&family=Lobster+Two&family=Merienda:wght@700&family=Open+Sans&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Satisfy&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Dancing+Script&family=Lobster+Two&family=Merienda:wght@700&family=Nunito+Sans&family=Open+Sans&family=Poppins:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container h2{
+    color: navy;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+  /*  border-bottom: 4px solid  rgb(189, 143, 57);*/
+}
+
+.container h2::before{
+    content: '';
+    position:absolute;
+    width: 70px;
+    height: 2px;
+    background-color: brown;
+    margin: 3rem 3.5rem 0
+}
+
+.container .list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 2rem 2rem;
+   
+}
+
+.container .list li{
+    padding: 1.5rem 1rem 0rem 1.5rem;
+    /*padding-right: 2rem;
+    padding-bottom: 1rem;*/
+}
+
+.list li:hover{
+    background-color: rgb(137, 99, 28);
+    color: white;
+    border-radius: 7px;
+    padding: 10px 10px;
+
+   /* padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;*/
+}
+
+
+.content {
+    padding-top: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftside{
+    float: left;
+    position: relative; left: 12rem;
+    
+}
+
+
+.leftside .box {
+    width: 32%;
+    padding: 10px;
+    display: flex;
+  
+}
+
+ .leftside .box .image img{
+    border: 2px solid orange;
+    
+}
+
+.leftside .text{
+    padding-left: 1rem;
+    color: rgb(102, 151, 170);
+    font-size: 1rem;
+   
+}
+
+.leftside .box .text .buttermilk{
+    display: flex;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid orange;
+  
+    
+}
+
+.leftside .box .text .buttermilk .price {
+    padding-left: 5.5rem;
+    color: orange;
+}
+
+
+/*Right Side*/
+
+.rightside{
+    float: right;
+    position: relative; right: 3rem;
+    
+}
+
+
+
+.rightside .box {
+    width: 32%;
+    padding: 10px;
+    display: flex;
+}
+
+.rightside .box .image img{
+    border: 2px solid orange;
+    
+}
+
+.rightside .text{
+    padding-left: 1rem;
+    color: rgb(102, 151, 170);
+    font-size: 1rem;
+   
+}
+
+.rightside .box .text .buttermilk {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid orange;
+    
+}
+
+.rightside .box .text .buttermilk .price {
+    padding-left: 5.5rem;
+    color: orange;
+}
